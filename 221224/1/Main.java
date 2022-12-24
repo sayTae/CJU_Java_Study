@@ -11,5 +11,7 @@ public class Main {
 		b = Integer.parseInt(br.readLine());
 
 		System.out.println(a+b);
+
+		br.close();
 	}
 }

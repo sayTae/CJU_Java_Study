@@ -12,5 +12,7 @@ public class Main {
 		sb.insert(6, "-");
 
 		System.out.println(sb.toString());
+
+		br.close();
 	}
 }

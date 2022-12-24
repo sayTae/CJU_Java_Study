@@ -11,6 +11,8 @@ public class Main {
 		b = br.readLine();
 
 		System.out.println(b+a);
+
+		br.close();
 	}
 }
 
