@@ -16,15 +16,11 @@ public class Main {
 		// }
 		// System.out.println(sb.toString());
 
-		for(int i=0; i<6; i++) {
+		for(int i=0; i<13; i++) {
 			sb.append(a.charAt(i));
 		}
 
-		sb.append("-");
-
-		for(int i=6; i<13; i++) {
-			sb.append(a.charAt(i));
-		}
+		sb.insert(6, "-");
 
 		System.out.println(sb.toString());
 	}
