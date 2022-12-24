@@ -9,10 +9,10 @@ public class Main {
 		String a, b;
 		a = br.readLine();
 		b = br.readLine();
+		
+		br.close();
 
 		System.out.println(b+a);
-
-		br.close();
 	}
 }
 

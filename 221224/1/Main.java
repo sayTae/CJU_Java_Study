@@ -10,8 +10,8 @@ public class Main {
 		a = Integer.parseInt(br.readLine());
 		b = Integer.parseInt(br.readLine());
 
-		System.out.println(a+b);
-
 		br.close();
+
+		System.out.println(a+b);
 	}
 }

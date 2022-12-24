@@ -9,10 +9,10 @@ public class Main {
 
 		sb.append(br.readLine());
 
+		br.close();
+
 		sb.insert(6, "-");
 
 		System.out.println(sb.toString());
-
-		br.close();
 	}
 }

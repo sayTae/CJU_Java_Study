@@ -8,8 +8,8 @@ public class Main {
 
 		double a = Integer.parseInt(br.readLine());
 
-		System.out.println(String.format("%.2f", a));
-
 		br.close();
+
+		System.out.println(String.format("%.2f", a));
 	}
 }
