@@ -6,7 +6,7 @@ public class Main {
 
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
-		double a = Integer.parseInt(br.readLine());
+		double a = Double.parseDouble(br.readLine());
 
 		br.close();
 
