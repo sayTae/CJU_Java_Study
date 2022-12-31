@@ -11,8 +11,12 @@ public class Main {
 
         StringBuilder sb = new StringBuilder();
 
-        for (int i=1; i<=N; i++) {
+        for (int i=1; i<N; i++) {
+			sb.append(" ");
+		}
+		sb.append("*");
 
+        for (int i=1; i<N; i++) {
 			for(int j=0; j<N; j++) {
 				sb.append(" ");
 			}
