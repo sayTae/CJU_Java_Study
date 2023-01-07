@@ -12,14 +12,11 @@ public class Main {
 		int B = Integer.parseInt(st.nextToken());
 		br.close();
 		
-		System.out.println(Cal.sum(A,B));
+		System.out.println(sum(A,B));
 	}
-}
 
 
-class Cal {
 	static int sum(int a, int b) {
-
 		return a+b;
 	}
 }
