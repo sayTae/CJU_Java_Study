@@ -9,9 +9,9 @@ public class Main {
 		int N = Integer.parseInt(br.readLine());
 		br.close();
 
-		Square square = new Square(N);
+		Square sq = new Square(N);
 
-		System.out.printf("한 변의 길이가 %d인 정사각형의 넓이: %d\n", square.getLength(), square.getArea());
+		System.out.printf("한 변의 길이가 %d인 정사각형의 넓이: %d\n", sq.getLength(), sq.getArea());
 	}
 }
 
