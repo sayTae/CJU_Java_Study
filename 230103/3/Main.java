@@ -7,15 +7,28 @@ public class Main {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		
 		int N = Integer.parseInt(br.readLine());
+		br.close();
 
-		System.out.println(area(N));
+		Square square = new Square(N);
+
+		System.out.printf("한 변의 길이가 %d인 정사각형의 넓이: %d\n", square.getLength(), square.getArea());
+	}
+}
+
+
+class Square {
+
+	int length;
+
+	Square(int length) {
+		this.length = length;
 	}
 
+	int getArea() {
+		return this.length * this.length;
+	}
 
-	public static int area(int r) {
-		
-		int result = r*r*6;
-
-		return result;
+	int getLength() {
+		return this.length;
 	}
 }

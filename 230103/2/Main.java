@@ -16,20 +16,22 @@ public class Main {
 
 		for(int i=0; i<N; i++) {
 			arr[i] = Integer.parseInt(st.nextToken());
+		}
+
+		System.out.println(Cal.average(arr));
 	}
-	System.out.println(average(arr));
 }
 
 
-	public static float average(int[] arr) {
+class Cal { 
+	static float average(int[] arr) {
 		
 		int sum = 0;
 		
 		for(int r : arr) {
 			sum += r;
 		}
-		float average =  sum / arr.length;
 
-		return average;
+		return sum / arr.length;
 	}
 }
