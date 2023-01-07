@@ -16,16 +16,14 @@ public class Main {
 			arr[i] = Integer.parseInt(st.nextToken());
 		}
 
-		Cal c = new Cal();
-
-		System.out.println(c.avg(arr));
+		System.out.println(Cal.average(arr));
 	}
 }
 
 
 class Cal { 
 
-	float avg(int[] arr) {
+	static float average(int[] arr) {
 		
 		int sum = 0;
 		
