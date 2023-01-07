@@ -19,6 +19,7 @@ public class Main {
 		}
 
 		Cal c = new Cal();
+
 		System.out.println(c.avg(arr));
 	}
 }
