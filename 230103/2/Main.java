@@ -30,7 +30,6 @@ class Cal {
 		for(int r : arr) {
 			sum += r;
 		}
-
 		return sum / arr.length;
 	}
 }
