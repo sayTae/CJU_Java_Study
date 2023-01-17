@@ -1,10 +1,8 @@
 
-import java.io.*;
-import java.util.*;
 
 public class Main {
 
-	public static void main(String[] args) throws IOException {
+	public static void main(String[] args) {
 
 		Foo.foo("안녕", 1);
 		Foo.foo("안녕하세요", 1, 2);
