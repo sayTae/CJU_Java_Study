@@ -8,7 +8,10 @@ public class Main {
 	}
 
 	static int factorial(int n) {
-		if (n<=1) return 1;
-		else return n * factorial(n-1);
+		switch(n) {
+			case 1: n<=1;
+					return 1;
+			case 2: n!=1;
+					return n * factorial(n-1);
 	}
 }
