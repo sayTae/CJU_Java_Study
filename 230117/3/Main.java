@@ -17,14 +17,14 @@ public class Main {
 
 	static void whosWin(String a, String b) {
 
-		if (a.equals('r') && b.equals('p') || a.equals('s') && b.equals('r') || a.equals('p') && b.equals('s')) {
-			System.out.println("철수, 승!");
+		if ((a.equals('r') && b.equals('p')) || (a.equals('s') && b.equals('r')) || (a.equals('p') && b.equals('s'))) {
+			System.out.println("영희, 승!");
 		}
 		else if (a.equals(b)) {
 			System.out.println("비김!!");
 		}
 		else {
-			System.out.println("영희, 승!");
+			System.out.println("철수, 승!");
 		}
 
 	}
