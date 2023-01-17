@@ -5,8 +5,10 @@ public class Main {
 	public static void main(String[] args) throws IOException {
 
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		
+	
+		System.out.printf("철수 : ");
 		String c = br.readLine();
+		System.out.printf("영희 : ");
 		String y = br.readLine();
 		br.close();
 

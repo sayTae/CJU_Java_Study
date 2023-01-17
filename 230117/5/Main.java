@@ -11,6 +11,7 @@ public class Main {
 		
 		int a = Integer.parseInt(st.nextToken());
 		int b = Integer.parseInt(st.nextToken());
+		br.close();
 
 		System.out.println(pitago(a,b));
 	}

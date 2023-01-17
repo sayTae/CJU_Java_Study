@@ -7,7 +7,7 @@ public class Main {
 
 	static int factorial(int n) {
 		switch(n) {
-			case 1:
+			case 0:
 				return 1;
 			default:
 				return n * factorial(n-1);

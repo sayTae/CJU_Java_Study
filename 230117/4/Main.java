@@ -1,8 +1,7 @@
 
-import java.io.*;
 
 public class Main {
-	public static void main(String[] args) throws IOException {
+	public static void main(String[] args) {
 
 		char c = 'z';
 		int askki = (int)'A' - (int)'a';
