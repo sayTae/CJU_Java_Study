@@ -9,9 +9,10 @@ public class Main {
 
 	static int factorial(int n) {
 		switch(n) {
-			case 1: n<=1;
+			case 1:
 					return 1;
-			case 2: n!=1;
+			default:
 					return n * factorial(n-1);
+		}
 	}
 }
