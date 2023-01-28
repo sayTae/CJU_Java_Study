@@ -1,21 +1,18 @@
 
 import java.io.*;
+import java.util.*;
 
 public class Main {
 
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-
-		String s = br.readLine();
-		br.close();
 		
-		if (s.substring(s.length() -3).equals("com")) {
-			System.out.printf("%s은 'com'으로 끝납니다.\n", s);
-		} 
-		if (s.contains("java")) {
-			System.out.printf("%s은 'java'를 포함합니다.\n", s);
-		}
+		String s = br.readLine();
+		String alpha = br.readLine();
+		br.close();
 
+		int count = s.length() - s.replace(alpha, "").length();
+		System.out.println(count);
 	}
 
 }

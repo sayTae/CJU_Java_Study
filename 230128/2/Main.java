@@ -24,12 +24,19 @@ public class Main {
 			if (79 < N && N < 90) arr[8][0] += 1;
 			if (89 < N && N < 100) arr[9][0] += 1;
 		}
+		br.close();
 
 		for (int i=0; i<10; i++) {
 			int n = arr[i][0];
-			System.out.printf("%d0 ~ %d9 : %d\n", i, i, n);
+			System.out.printf("%d0 ~ %d9 : ", i, i);
+			
+			while (n-- >0) {
+				System.out.printf("*");
+			}
+			System.out.println();
 		}
 
 	}
+
 }
 
